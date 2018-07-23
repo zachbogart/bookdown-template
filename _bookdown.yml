@@ -5,8 +5,8 @@ output_dir: _book # where the book files are stored
 new_session: yes
 edit: https://github.com/zachbogart/bookdown-template/edit/master/%s # change to allow people to edit via GitHub
 
-# chapter ordering
 # must include .Rmd files here to render them into your book
+# will be rendered in order you specify
 rmd_files: [
   
   "index.Rmd", 
