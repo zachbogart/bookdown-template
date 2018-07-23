@@ -1,0 +1,17 @@
+book_filename: "bookdown-template"
+chapter_name: "" # added to the front of every chapter title
+repo: https://github.com/zachbogart/bookdown-template # where your repo is
+output_dir: _book # where the book files are stored
+new_session: yes
+edit: https://github.com/zachbogart/bookdown-template/edit/master/%s # change to allow people to edit via GitHub
+
+# chapter ordering
+# must include .Rmd files here to render them into your book
+rmd_files: [
+  
+  "index.Rmd", 
+  "intro.Rmd",
+  "basics.Rmd"
+
+]
+
