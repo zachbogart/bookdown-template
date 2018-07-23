@@ -12,3 +12,5 @@ This template should allow you to setup your own bookdown book that can be publi
 2. **Activate Travis CI**: Go to https://travis-ci.org/ and link your GitHub account. Then go to your profile and activate your new repo. 
 3. **Create GitHub PAT**: Go to https://github.com/settings/tokens and generate a personal access token (PAT). Call it whatever (maybe "Travis CI Hookup") and check the first checkmark that says "repo" (to give it access to your public repos). Make sure to copy down the PAT; it will not be shown again.
 4. **Add PAT to Travis**: On the Travis page for your repo, **go to Settings > Environment Variables**. Create a new variable with name **GITHUB_PAT** and value of your copied PAT your recently created.
+
+You should now be able to have Travis update your work when you commit something to the GitHub repo.
