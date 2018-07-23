@@ -2,6 +2,10 @@
 
 This template should allow you to setup your own bookdown book that can be published with GitHub Pages and automate rendering using Travis CI.
 
+If all goes well, you can sit back, relax, and watch Travis do the work for you.
+
+![Lazy Homer](https://media.giphy.com/media/lPdn5MOabkgCY/giphy.gif)
+
 ## Create the Book
 1. **Clone this repo**
 2. **Create your book**: create new .Rmd files for your new chapters and add content.
@@ -25,7 +29,3 @@ Here is an example of the template published on this repo's GitHub Pages site:
 
 ## Having Trouble?
 This template is a side-addition to a resource I created with [Joyce Robbins](https://github.com/jtr13) called [edav.info/](https://jtr13.github.io/EDAV) (Link to [GitHub repo](https://github.com/jtr13/EDAV)). Checkout [our page on Hooking up Travis](http://edav.info/publish.html#hooking-up-travis) for more info if you are feeling lost. 
-
-If all goes well, you can sit back, relax, and watch Travis do the work for you.
-
-![Lazy Homer](https://media.giphy.com/media/lPdn5MOabkgCY/giphy.gif)
