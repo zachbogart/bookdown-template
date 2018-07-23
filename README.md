@@ -5,8 +5,9 @@ This template should allow you to setup your own bookdown book that can be publi
 ## Create the Book
 1. **Clone this repo**
 2. **Create your book**: create new .Rmd files for your new chapters and add content.
-3. **Check the render**: Once finished adding content, run `bookdown::render_book("index.Rmd", "all")` to render a draft of the book. This will appear in the newly-created `_book` folder. You can check its apprearance in your browser by opening one of the html files (Something like Chrome > File > Open File... > Open ~/_book/index.html).
-4. **Push to GitHub**: Push your work to a new repo on GitHub.
+3. **Check the render**: Once finished adding content, run `bookdown::render_book("index.Rmd", "all")` to render a draft of the book. This will appear in the newly-created `_book` folder. You can check its appearance in your browser by opening one of the html files (Something like Chrome > File > Open File... > Open ~/_book/index.html).
+4. **Update .travis.yml file**: Make sure that you update the **.travis.yml** file to be your email and username. Use the email related to your GitHub account; the username shouldn't matter.
+5. **Push to GitHub**: Push your work to a new repo on GitHub.
 
 ## Hookup Pages/Travis
 1. **Confirm GitHub Pages Setup**: On your newly added GitHub repo, **go to Settings > Options > GitHub Pages**. Confirm that your site is being published using the gh-pages branch (you should see a green banner saying everything is up and running).
