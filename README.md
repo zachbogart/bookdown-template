@@ -1,6 +1,6 @@
 # bookdown-template
 
-This template should allow you to setup your own bookdown book that can be published with GitHub Pages and automate rendering using Travis CI.
+This template should allow you to setup your own bookdown book to publish with GitHub Pages and automate its rendering using Travis CI.
 
 If all goes well, you can sit back, relax, and watch Travis do the work for you.
 
