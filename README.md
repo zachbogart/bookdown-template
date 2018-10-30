@@ -28,6 +28,7 @@ Here is an example of the template published on this repo's GitHub Pages site:
 **Notes**:
 - You can track builds by visiting https://travis-ci.org/
 - You can also check things are working by looking at the [commits for the repo](https://github.com/zachbogart/bookdown-template/commits/master) (there should be a yellow dot when a Travis build is in progress and a checkmark if it passes).
+- This setup will trigger Travis to build and deploy to your site **for every type of build**. So, if you trigger Travis during pull requests, it will push a PR build to your site, which you may not want. See [the .travis.yml file from edav.info/](https://github.com/jtr13/EDAV/blob/master/.travis.yml) for an example that distinguishes PR and main builds (the big difference is at the end in the script call).
 
 ## Having Trouble?
 This template is a side-addition to a resource I created with [Joyce Robbins](https://github.com/jtr13) called [edav.info/](https://jtr13.github.io/EDAV) (Link to [GitHub repo](https://github.com/jtr13/EDAV)). Checkout [our page on Hooking up Travis](http://edav.info/publish.html#hooking-up-travis) for more info if you are feeling lost. 
